@@ -1,5 +1,5 @@
-// Declare your function first
-
-// Call the function and assign to a variable `sum`
-
+function calculateSum(a, b) {
+    return a + b
+}
+var sum = calculateSum(13, 124);
 console.log(sum);
