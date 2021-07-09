@@ -1,16 +1,15 @@
 // The syntax for this function is valid but it has an error, find it and fix it.
 
 function trimWord(word) {
-  return wordtrim();
+  return word.trim();//Faltaba el punto
 }
 
 function getWordLength(word) {
-  return "word".length()
+  return word.length//Sobraba las comillas y parentesis
 }
 
 function multiply(a, b, c) {
-  a * b * c;
-  return;
+  return a * b * c; // Return y multiplicacion en distintas lineas
 }
 
 /* ======= TESTS - DO NOT MODIFY =====

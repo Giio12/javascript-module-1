@@ -1,17 +1,18 @@
 // There are syntax errors in this code - can you fix it to pass the tests?
 
-function addNumbers(a b c) {
+function addNumbers(a, b, c) { //Faltaban las comas
     return a + b + c;
 }
 
-function introduceMe(name, age)
-return "Hello, my name is " + name "and I am " age + "years old";
+function introduceMe(name, age) {//faltaba corchetes
+    return "Hello, my name is " + name + " and I am " + age + " years old"; //Faltaba las sumas y espacios
+}
 
 function getTotal(a, b) {
-    total = a ++ b;
+    total = a + b; // Sobraba una suma
 
     // Use string interpolation here
-    return "The total is %{total}"
+    return `The total is ${total}` // interpolación y signo $
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
