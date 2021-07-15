@@ -6,11 +6,11 @@
 
 */
 
-let n = 10;
-let i = 0;
-let result = 0;
+let n = 3;
 
 function sumTillNum(num) {
+	let i = 0;
+	let result = 0;
 	while (i <= num) {
 		result = result + i;
 		i++;

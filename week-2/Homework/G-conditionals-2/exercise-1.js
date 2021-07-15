@@ -8,9 +8,9 @@
 
 function negativeOrPositive(number) {
   if (number >= 0) {
-    return `positive`
+    return 'positive'
   }
-  return `negative`
+  return 'negative'
 }
 
 /* 

@@ -9,7 +9,7 @@
 var numbers = [1, 2, 3]; // Don't change this array literal declaration
 numbers.push(4);
 numbers.splice(1,1, 1);
-numbers.splice(0,1, 2)
+numbers.splice(0,1, 2);
 
 /* 
   DO NOT EDIT BELOW THIS LINE

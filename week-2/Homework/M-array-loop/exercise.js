@@ -14,11 +14,11 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-function name(week) {
+function serchLetter(week) {
   for (let i = 0; i <= week.length - 1; i++) {
     if (week[i][0] == "T") {
       console.log(week[i])
     }
   }
 }
-name(daysOfWeek)
+serchLetter(daysOfWeek)
